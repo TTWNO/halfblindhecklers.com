@@ -1,0 +1,12 @@
+<div id="grid-wrapper">
+  {% for person in site.data.people %}
+  <div class="person">
+    <div class="img-wrapper">
+      <img src="{{ person.imgsrc }}" alt="{{ person.imgalt }}">
+    </div>
+    <h3>{{ person.name }}</h3>
+    <p>{{ person.description }}</p>
+  </div>
+  {% endfor %}
+</div>
+

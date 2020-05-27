@@ -1,0 +1,37 @@
+I"ù<h2>The Half Blind Hecklers</h2>
+<h4>Who Are We?</h4>
+<div id="grid-wrapper">
+  
+  <div class="person">
+    <img src="/assets/img/stephen-cropped.jpg" alt="Stephen Green and his wife Stephanie" />
+    <h3>Stephen Green</h3>
+    Teetering on Libertarian philosophy, Stephen Green is a socially conservative Christian who is passionite about gun rights and freedom of speech.
+  </div>
+  
+  <div class="person">
+    <img src="" alt="" />
+    <h3>Tait Hoyem (The Blind One)</h3>
+    A pro-life atheist, Tait Hoyem is a social liberal who believes in 'live and let live'. Tait is passionite about the state of government surveillance.
+  </div>
+  
+</div>
+
+<h4>Where can you contact us?</h4>
+<div id="contact">
+  <p>You can message us and follow us at the following locations:</p>
+  <ul>
+    
+      <li> <a href="https://">LBRY</a></li>
+    
+      <li> <a href="https://">YouTube</a></li>
+    
+      <li> <a href="https://">Facebook</a></li>
+    
+      <li>Email, Tait: <a href="mailto:tait@halfblindhecklers.com">tait@halfblindhecklers.com</a></li>
+    
+      <li>Email, Stephen: <a href="mailto:stephen@halfblindhecklers.com">stephen@halfblindhecklers.com</a></li>
+    
+  </ul>
+</div>
+
+:ET

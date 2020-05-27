@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; }
+
+body { color: #eeeeee; background-color: #222; }
+
+h1 { text-align: center; }
+
+p { margin: 6px; }
+
+#wrapper { padding: 10px; width: 90%; margin: auto; }
+
+#grid-wrapper { display: grid; grid-template-columns: auto auto; grid-gap: 10px; }
+
+div { padding: 10px; }
+
+.person > h3 { text-align: center; }
+
+.person:nth-child(odd) { background-color: #1C5AA7; }
+
+.person:nth-child(even) { background-color: #F50000; }
+
+img { width: 100%; }
+
+#img-wrapper { width: 50%; margin: auto; }
+
+ul { margin: 1em; }
+
+@media screen and (max-width: 800px) { #grid-wrapper { display: block; } }
+
+a:visited { color: #931452; }
+
+a { color: #47a; }
+
+/*# sourceMappingURL=style.css.map */
