@@ -1,15 +1,16 @@
 $grid-padding: 10px;
-$hbh-blue: #1C5AA7;
-$hbh-red: #F50000;
+$hbh-blue: #326aaf;
+$hbh-red: #F61919;
 $hbh-white: #eeeeee;
+$hbh-dark: #222;
 
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  color: $hbh-white;
-  background-color: #222;
+  color: $hbh-dark;
+  background-color: $hbh-white;
 }
 h1 {
   text-align: center;
@@ -26,6 +27,7 @@ p {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: $grid-padding;
+  color: $hbh-white;
 }
 div {
   padding: 10px;
