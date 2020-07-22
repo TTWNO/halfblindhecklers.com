@@ -1,6 +1,6 @@
 * { margin: 0; padding: 0; }
 
-body { color: #eeeeee; background-color: #222; }
+body { color: #222; background-color: #eeeeee; }
 
 h1 { text-align: center; }
 
@@ -8,15 +8,15 @@ p { margin: 6px; }
 
 #wrapper { padding: 10px; width: 90%; margin: auto; }
 
-#grid-wrapper { display: grid; grid-template-columns: auto auto; grid-gap: 10px; }
+#grid-wrapper { display: grid; grid-template-columns: auto auto; grid-gap: 10px; color: #eeeeee; }
 
 div { padding: 10px; }
 
 .person > h3 { text-align: center; }
 
-.person:nth-child(odd) { background-color: #1C5AA7; }
+.person:nth-child(odd) { background-color: #326aaf; }
 
-.person:nth-child(even) { background-color: #F50000; }
+.person:nth-child(even) { background-color: #F61919; }
 
 img { width: 100%; }
 
