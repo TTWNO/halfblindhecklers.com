@@ -12,9 +12,20 @@ $hbh-green: #006400;
 body {
   color: $hbh-dark;
   background-color: $hbh-white;
+  font-family: sans-serif;
 }
 h1 {
+  position: fixed;
+  padding: 8px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $hbh-dark;
+  color: $hbh-white;
   text-align: center;
+}
+.main {
+  margin-top: 75px;
 }
 p {
   margin: 6px;
@@ -26,14 +37,14 @@ p {
 }
 #grid-wrapper {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-gap: $grid-padding;
   color: $hbh-white;
 }
 div {
   padding: 10px;
 }
-.person > h3 {
+.person .name {
   text-align: center;
 }
 .person:nth-child(1) {
@@ -49,8 +60,6 @@ img {
   width: 100%;
 }
 #img-wrapper {
-  width: 50%;
-  margin: auto;
 }
 ul {
   margin: 1em;

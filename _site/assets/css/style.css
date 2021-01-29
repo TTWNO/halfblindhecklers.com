@@ -1,18 +1,20 @@
 * { margin: 0; padding: 0; }
 
-body { color: #222; background-color: #eeeeee; }
+body { color: #222; background-color: #eeeeee; font-family: sans-serif; }
 
-h1 { text-align: center; }
+h1 { position: fixed; padding: 8px; top: 0; left: 0; width: 100%; background-color: #222; color: #eeeeee; text-align: center; }
+
+.main { margin-top: 75px; }
 
 p { margin: 6px; }
 
 #wrapper { padding: 10px; width: 90%; margin: auto; }
 
-#grid-wrapper { display: grid; grid-template-columns: auto auto auto; grid-gap: 10px; color: #eeeeee; }
+#grid-wrapper { display: grid; grid-template-columns: auto auto; grid-gap: 10px; color: #eeeeee; }
 
 div { padding: 10px; }
 
-.person > h3 { text-align: center; }
+.person .name { text-align: center; }
 
 .person:nth-child(1) { background-color: #124a8f; }
 
@@ -21,8 +23,6 @@ div { padding: 10px; }
 .person:nth-child(3) { background-color: #006400; }
 
 img { width: 100%; }
-
-#img-wrapper { width: 50%; margin: auto; }
 
 ul { margin: 1em; }
 
