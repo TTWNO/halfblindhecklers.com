@@ -1,8 +1,9 @@
 $grid-padding: 10px;
-$hbh-blue: #326aaf;
-$hbh-red: #F61919;
+$hbh-blue: #124a8f;
+$hbh-red: #c01919;
 $hbh-white: #eeeeee;
 $hbh-dark: #222;
+$hbh-green: #006400;
 
 * {
   margin: 0;
@@ -25,7 +26,7 @@ p {
 }
 #grid-wrapper {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: $grid-padding;
   color: $hbh-white;
 }
@@ -35,11 +36,14 @@ div {
 .person > h3 {
   text-align: center;
 }
-.person:nth-child(odd) {
+.person:nth-child(1) {
   background-color: $hbh-blue;
 }
-.person:nth-child(even) {
+.person:nth-child(2) {
   background-color: $hbh-red;
+}
+.person:nth-child(3) {
+  background-color: $hbh-green;
 }
 img {
   width: 100%;

@@ -8,15 +8,17 @@ p { margin: 6px; }
 
 #wrapper { padding: 10px; width: 90%; margin: auto; }
 
-#grid-wrapper { display: grid; grid-template-columns: auto auto; grid-gap: 10px; color: #eeeeee; }
+#grid-wrapper { display: grid; grid-template-columns: auto auto auto; grid-gap: 10px; color: #eeeeee; }
 
 div { padding: 10px; }
 
 .person > h3 { text-align: center; }
 
-.person:nth-child(odd) { background-color: #326aaf; }
+.person:nth-child(1) { background-color: #124a8f; }
 
-.person:nth-child(even) { background-color: #F61919; }
+.person:nth-child(2) { background-color: #c01919; }
+
+.person:nth-child(3) { background-color: #006400; }
 
 img { width: 100%; }
 
