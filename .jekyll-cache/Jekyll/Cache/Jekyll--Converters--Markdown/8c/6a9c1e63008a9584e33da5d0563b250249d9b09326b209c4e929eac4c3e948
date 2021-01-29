@@ -1,4 +1,6 @@
-I"7<h1 class="title">The Half Blind Hecklers</h1>
+I"¶<h1 class="title">The Half Blind Hecklers</h1>
+<div class="main">
+<h2>Who Are We?</h2>
 <div id="grid-wrapper">
   
   <div class="person">
@@ -27,22 +29,28 @@
   
 </div>
 
-<h2 id="where-can-you-contact-us">Where can you contact us?</h2>
+
+<h2>Contact Us</h2>
 <div id="contact">
   <p>You can message us and follow us at the following locations:</p>
   <ul>
     
-      <li>(Tait) <a href="https://lbry.tv/@half-lind-hecklers:d">LBRY</a></li>
+      <li> <a href="https://lbry.tv/@half-lind-hecklers:d">LBRY</a></li>
     
-      <li>(Stephen) <a href="https://www.youtube.com/channel/UCEaDz6AjFrO7PeR-4kKrIbg">YouTube</a></li>
+      <li> <a href="https://www.youtube.com/channel/UCEaDz6AjFrO7PeR-4kKrIbg">YouTube</a></li>
     
-      <li>(Stephen) <a href="https://www.facebook.com/halfblindhecklers/">Facebook</a></li>
+      <li> <a href="https://www.facebook.com/halfblindhecklers/">Facebook</a></li>
     
-      <li>(Stephen) <a href="https://par.pw/profile/Halfhecklers/posts">Parlor</a></li>
+      <li> <a href="https://par.pw/profile/Halfhecklers/posts"></a></li>
     
-      <li>(Both Of Us) <a href="mailto:halfblindhecklers@gmail.com">Email/GMail</a></li>
+      <li> <a href="mailto:halfblindhecklers@gmail.com">Email/GMail</a></li>
+    
+      <li> <a href="https://www.bitchute.com/channel/K28hs2glRvar/">Bitchute</a></li>
+    
+      <li> <a href="https://rumble.com/user/HalfBlindHecklers">Rumble</a></li>
     
   </ul>
 </div>
 
+</div>
 :ET
